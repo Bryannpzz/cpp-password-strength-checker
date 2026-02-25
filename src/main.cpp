@@ -38,7 +38,6 @@ bool hasSymbol(const string& s) {
     return false;
 }
 
-// Very simple pattern checks (not perfect, but good for a student project)
 bool containsCommonPattern(const string& s) {
     string lower;
     lower.reserve(s.size());
